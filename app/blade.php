@@ -1,5 +1,4 @@
 <?php
-
 Blade::extend(function($view){
 
   return preg_replace('/\@define(.+)/', '<?php ${1}; ?>', $view);
