@@ -1,2 +1,2 @@
-dir_to_ignore/ app/storage/
-dir_to_ignore/ app/config
+/app/storage/
+/app/config
