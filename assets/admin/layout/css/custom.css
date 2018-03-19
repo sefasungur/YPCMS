@@ -1,0 +1,39 @@
+.ui-sortable-placeholder {
+    outline: 1px dashed #aaa;
+    height: 90px;
+    width: 344px;
+    background: #F2F9FF!important;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+.ui-sortable-helper{
+	-webkit-transform: scale(1.04);
+	-moz-transform: scale(1.04);
+	-o-transform: scale(1.04);
+	transform: scale(1.04);
+	outline: 1px dashed #000;
+	opacity: 0.8;
+}
+#mediaFiles td{
+	vertical-align: middle!important;
+}
+td.sortable{
+	cursor: move;
+	color: #3D4A53;
+}
+#mediaFiles td img{
+	width:100%; 
+}
+
+.page-header.navbar .page-logo .logo-default{
+	margin: 15px 0 0 8px;
+	height: auto;
+}
+.page-header.navbar .page-logo{
+	padding:0 10px;
+}
+.tag-area{
+	margin-bottom: 10px;
+}
