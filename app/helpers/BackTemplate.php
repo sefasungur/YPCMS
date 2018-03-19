@@ -16,11 +16,7 @@ class BackTemplate extends \BaseController{
         $return = array(
             "default"            => "Varsayılan",
             "defaultList"        => "Varsayılan liste",
-            "contact"            => "İletişim",
-            "home"               => "Anasayfa",
-            "news"               => "Duyurular",
-            "search"             => "Arama Sayfası",
-            "video"              => "Video Galerisi"
+            "home"               => "Anasayfa"
         );
         
         if(is_array($add))
