@@ -1,4 +1,2 @@
-
-app/config/database.php
-app/storage/views/d4e6e6c0929a429b123ea0ac59f88022
-app/storage/views/d0d0c344885e1932a9a88b858107155f
+dir_to_ignore/ app/storage/
+dir_to_ignore/ app/config
